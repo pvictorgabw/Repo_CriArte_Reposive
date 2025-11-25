@@ -366,7 +366,7 @@ footer {
   
   /* Ícones sociais fixos no canto inferior direito */
   .social-icons {
-    position: absolute;
+    margin-top: 3rem;
     right: 40px;
     bottom: 25px;
     display: flex;
@@ -629,4 +629,5 @@ textarea {
   .cards-grid {
     grid-template-columns: 1fr;
   }
+
 }
