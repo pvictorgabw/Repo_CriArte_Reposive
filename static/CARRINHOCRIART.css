@@ -169,7 +169,7 @@ body {
     justify-content: space-between;
     padding: 30px;
     gap: 20px;
-    margin-top: 50px; /* evita sobrepor o header */
+    margin-top: 25px; /* evita sobrepor o header */
     width: 100%;
     max-width: 1300px;
     margin-left: auto;
@@ -566,4 +566,5 @@ footer {
     position: static;
     margin-top: 20px;
   }
+
 }
