@@ -359,7 +359,7 @@ footer {
 
 /* Ícones sociais fixos no canto inferior direito */
 .social-icons {
-  position: absolute;
+  margin-top: 3rem;
   right: 40px;
   bottom: 25px;
   display: flex;
@@ -409,4 +409,5 @@ footer {
     position: static;
     margin-top: 20px;
   }
+
 }
