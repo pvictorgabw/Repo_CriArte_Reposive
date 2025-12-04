@@ -76,11 +76,7 @@
             <label for="radio5" class="manual-btn"></label>
         </div>
     
-    </div>
-    <button class="prev1" id="prev1"> &#10094;</button>
-    <button class="next1" id="next1">&#10095;</button>
-    <button class="prev2" id="prev2">&#10094;</button>
-    <button class="next2" id="next2">&#10095;</button>
+    
     <div class="linha">
         <h2 class="dp">Produtos em <strong class="dp1">DESTAQUES</strong></h2>
     </div>
@@ -356,5 +352,21 @@
       </div>
 
       <script src="static/scriptfile.js"></script>
+
+
+        <!-- script carrossel-->
+<script>
+let count = 1;
+setInterval(() => {
+    document.getElementById("radio" + count).checked = true;
+    count++;
+    if(count > 5){
+        count = 1;
+    }
+}, 4000); // velocidade – 4s
+</script>
+
+        
 </body>
+
 </html>
